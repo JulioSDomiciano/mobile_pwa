@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("pw2\img\parede.jpg");
+    /* color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fundo {
+    background-image: url("./img/parede.jpg");
+}
+
+.container {
+    background-image: url("./img/painep.jfif");
+    font-family: 'MedievalSharp';
+    font-size: 22px;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-image: url("./img/botao.jpg");
+    font-family: 'MedievalSharp';
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 6px;
+}

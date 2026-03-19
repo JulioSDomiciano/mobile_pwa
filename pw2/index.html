@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>PWA Moderna</title>
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="manifest" href="manifest.json">
+ <link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+
+ <meta name="theme-color" content="#4f46e5">
+</head>
+<body  class="fundo"  >
+ <div class="container">
+   <h1>⚒️ Minha PWA ⚒️</h1> 
+
+   <input type="text" id="input" placeholder="Digite algo...">
+   <button onclick="salvar()">Salvar</button>
+
+   <ul id="lista"></ul>
+ </div>
+
+ <script src="app.js"></script>
+
+ <script>
+   if ("serviceWorker" in navigator) {
+     navigator.serviceWorker.register("sw.js");
+   }
+ </script>
+
+</body>
+</html>
