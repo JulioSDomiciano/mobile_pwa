@@ -1,0 +1,75 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Arroz 5kg",
+      "preco": 25.9,
+      "estoque": 49
+    },
+    {
+      "id": 2,
+      "nome": "Feijão 1kg",
+      "preco": 8.5,
+      "estoque": 40
+    },
+    {
+      "id": 3,
+      "nome": "Açúcar 1kg",
+      "preco": 5.9,
+      "estoque": 30
+    },
+    {
+      "id": 4,
+      "nome": "Café 500g",
+      "preco": 12.9,
+      "estoque": 25
+    },
+    {
+      "id": 5,
+      "nome": "Leite 1L",
+      "preco": 4.9,
+      "estoque": 60
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Maria Silva",
+      "telefone": "(11) 99999-1111",
+      "limite": 100,
+      "divida": 0
+    },
+    {
+      "id": 2,
+      "nome": "José Santos",
+      "telefone": "(11) 99999-2222",
+      "limite": 50,
+      "divida": 0
+    },
+    {
+      "id": 3,
+      "nome": "Ana Paula",
+      "telefone": "(11) 99999-3333",
+      "limite": 150,
+      "divida": 0
+    }
+  ],
+  "vendas": [
+    {
+      "id": 1,
+      "data": "2026-03-26T19:35:58.718163",
+      "cliente_id": null,
+      "cliente_nome": "Consumidor Final",
+      "total": 25.9,
+      "tipo": "avista",
+      "itens": [
+        {
+          "produto_id": 1,
+          "nome": "Arroz 5kg",
+          "preco": 25.9,
+          "quantidade": 1
+        }
+      ]
+    }
+  ]
+}

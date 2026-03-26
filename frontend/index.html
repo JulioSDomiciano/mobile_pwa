@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#4CAF50">
+    <meta name="description" content="Sistema de gestão para a Mercearia do João">
+    <title>Mercearia do João</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://icons8.com.br/icon/YpzsNWnF4eFH/viking-ship">
+
+
+</head>
+
+<body>
+    <div class="app">
+        <!-- Cabeçalho -->
+        <header>
+            <div class="header-content">
+                <h1>Mercearia do João</h1>
+            </div>
+            <div id="dataHora" class="data-hora"></div>
+    </div>
+    <div class="status-offline" id="statusOffline" style="display: none;">
+        ⚠️ Modo Offline - Dados locais
+    </div>
+    </header>
+
+    <!-- Menu de Navegação -->
+    <nav class="nav-menu">
+        <button class="nav-btn active" data-page="dashboard">
+            <span>📊</span>
+            <span>Início</span>
+        </button>
+        <button class="nav-btn" data-page="vendas">
+            <span>💰</span>
+            <span>Vender</span>
+        </button>
+        <button class="nav-btn" data-page="produtos">
+            <span>📦</span>
+            <span>Produtos</span>
+        </button>
+        <button class="nav-btn" data-page="clientes">
+            <span>👥</span>
+            <span>Clientes</span>
+        </button>
+        <button class="nav-btn" data-page="fiado">
+            <span>📝</span>
+            <span>Fiado</span>
+        </button>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main id="conteudo" class="main-content"></main>
+
+    <!-- Botão de Instalação do PWA -->
+    <div id="installPWA" class="install-banner" style="display: none;">
+        <span>📱 Instale este app no seu celular!</span>
+        <button id="btnInstall">Instalar</button>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
